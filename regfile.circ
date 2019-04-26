@@ -243,7 +243,6 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
     <wire from="(1230,930)" to="(1300,930)"/>
     <wire from="(1230,1170)" to="(1300,1170)"/>
     <wire from="(910,1080)" to="(940,1080)"/>
-    <wire from="(910,1320)" to="(940,1320)"/>
     <wire from="(230,980)" to="(240,980)"/>
     <wire from="(1330,380)" to="(1360,380)"/>
     <wire from="(560,550)" to="(560,600)"/>
@@ -261,7 +260,9 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
     <wire from="(560,460)" to="(590,460)"/>
     <wire from="(840,410)" to="(930,410)"/>
     <wire from="(50,310)" to="(320,310)"/>
+    <wire from="(850,1330)" to="(860,1330)"/>
     <wire from="(1340,500)" to="(1340,540)"/>
+    <wire from="(860,1320)" to="(940,1320)"/>
     <wire from="(910,520)" to="(960,520)"/>
     <wire from="(470,550)" to="(530,550)"/>
     <wire from="(1580,320)" to="(1580,540)"/>
@@ -301,6 +302,7 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
     <wire from="(480,120)" to="(480,240)"/>
     <wire from="(1340,320)" to="(1580,320)"/>
     <wire from="(740,240)" to="(790,240)"/>
+    <wire from="(860,1320)" to="(860,1330)"/>
     <wire from="(270,1210)" to="(320,1210)"/>
     <wire from="(320,620)" to="(320,630)"/>
     <wire from="(470,510)" to="(590,510)"/>
@@ -748,11 +750,6 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
       <a name="width" val="32"/>
       <a name="label" val="write_data"/>
     </comp>
-    <comp lib="0" loc="(910,1320)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="5"/>
-      <a name="label" val="write_reg"/>
-    </comp>
     <comp lib="3" loc="(270,1340)" name="Comparator">
       <a name="width" val="5"/>
     </comp>
@@ -971,6 +968,11 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
     </comp>
     <comp lib="0" loc="(880,1030)" name="Constant">
       <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(850,1330)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="5"/>
+      <a name="label" val="write_reg"/>
     </comp>
   </circuit>
 </project>
